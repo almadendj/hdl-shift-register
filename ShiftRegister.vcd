@@ -1,0 +1,112 @@
+$date
+	Tue Apr 22 13:07:08 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module ShiftRegisterTB $end
+$var wire 4 ! out [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # direction $end
+$var reg 1 $ in $end
+$var reg 1 % reset $end
+$scope module sr $end
+$var wire 1 " clk $end
+$var wire 1 # direction $end
+$var wire 1 $ in $end
+$var wire 4 & out [3:0] $end
+$var wire 1 % reset $end
+$var reg 4 ' register [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+1%
+0$
+0#
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+#15
+b1000 !
+b1000 &
+b1000 '
+1"
+1$
+0%
+#20
+0"
+#25
+b100 !
+b100 &
+b100 '
+1"
+0$
+#30
+0"
+#35
+b1010 !
+b1010 &
+b1010 '
+1"
+1$
+#40
+0"
+#45
+b101 !
+b101 &
+b101 '
+1"
+0$
+#50
+0"
+#55
+b1010 !
+b1010 &
+b1010 '
+1"
+1#
+#60
+0"
+#65
+b101 !
+b101 &
+b101 '
+1"
+1$
+#70
+0"
+#75
+b1010 !
+b1010 &
+b1010 '
+1"
+0$
+#80
+0"
+#85
+b101 !
+b101 &
+b101 '
+1"
+1$
+#90
+0"
+#95
+b1011 !
+b1011 &
+b1011 '
+1"
